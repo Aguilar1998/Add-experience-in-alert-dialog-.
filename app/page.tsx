@@ -23,10 +23,9 @@ export default function AlertDialogDemo() {
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogTitle>¿Estas seguro?</AlertDialogTitle>
             <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+            Esta acción no se puede deshacer. Esto borrará permanentemente [ nombrar la accion] y eliminará los datos del servidor.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
