@@ -19,7 +19,7 @@ export default function AlertDialogDemo() {
     <section className='flex justify-center p-20'>
       <AlertDialog >
         <AlertDialogTrigger asChild>
-          <Button variant="outline">Show Dialog</Button>
+          <Button variant="outline">Eliminar</Button>
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
