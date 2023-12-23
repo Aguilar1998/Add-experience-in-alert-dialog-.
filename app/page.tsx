@@ -16,8 +16,8 @@ import { Button } from '@/components/ui/button';
 
 export default function AlertDialogDemo() {
   return (
-    <>
-      <AlertDialog>
+    <section className='flex justify-center p-20'>
+      <AlertDialog >
         <AlertDialogTrigger asChild>
           <Button variant="outline">Show Dialog</Button>
         </AlertDialogTrigger>
@@ -35,6 +35,6 @@ export default function AlertDialogDemo() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-    </>
+    </section>
   );
 }
